@@ -1,0 +1,39 @@
+{
+  "name": "premade-database-builder",
+  "version": "1.0.0",
+  "description": "Automated build and deployment system for XO-Armor premade parts database",
+  "main": "src/seed.ts",
+  "scripts": {
+    "seed": "ts-node src/seed.ts",
+    "build:upload": "ts-node src/build-and-upload.ts",
+    "prisma:generate": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma generate",
+    "prisma:migrate": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma migrate deploy",
+    "prisma:migrate:create": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma migrate dev --name init",
+    "prisma:studio": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma studio",
+    "prisma:reset": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma migrate reset --force",
+    "build": "npm run prisma:generate && npm run prisma:migrate && npm run seed"
+  },
+  "keywords": [
+    "database",
+    "prisma",
+    "sqlite",
+    "automation",
+    "s3"
+  ],
+  "author": "XOArmor",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "aws-sdk": "^2.1692.0",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/papaparse": "^5.3.15",
+    "better-sqlite3": "^12.4.1",
+    "cross-env": "^7.0.3",
+    "prisma": "^6.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

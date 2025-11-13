@@ -1,0 +1,91 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "./client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("PREMADE_DATABASE_URL")
+}
+
+model Category {
+  id            Int           @id @default(autoincrement())
+  label         String        @unique
+  description   String?
+  media         Media         @relation(fields: [media_id], references: [id])
+  media_id      String        @unique
+  subCategories SubCategory[]
+
+  @@map("Category")
+}
+
+model SubCategory {
+  id          Int           @id @default(autoincrement())
+  label       String        @unique
+  category    Category      @relation(fields: [category_id], references: [id])
+  media       Media         @relation(fields: [media_id], references: [id])
+  media_id    String        @unique
+  category_id Int
+  parts       Part[]
+  
+  parent      SubCategory?  @relation("SubCategoryHierarchy", fields: [parent_id], references: [id])
+  parent_id   Int?
+  children    SubCategory[] @relation("SubCategoryHierarchy")
+
+  @@index([category_id])
+  @@index([parent_id])
+  @@map("SubCategory")
+}
+
+model Part {
+  id              Int         @id @default(autoincrement())
+  label           String
+  description     String?
+  media           Media       @relation(fields: [media_id], references: [id])
+  media_id        String      @unique
+  subCategory     SubCategory @relation(fields: [sub_category_id], references: [id])
+  sub_category_id Int
+  is_bookmarked   Boolean     @default(false)
+  count           Int
+  tags            String?
+  partSizes       PartSize[]
+
+  @@index([sub_category_id])
+  @@index([label])
+  @@map("Part")
+}
+
+model PartSize {
+  id            Int     @id @default(autoincrement())
+  code          String  @default(uuid())
+  price         Float
+  size          String
+  width         String
+  height        String
+  thickness     String?
+  RS1           String?
+  RS2           String?
+  design_file   Bytes
+  is_bookmarked Boolean @default(false)
+  meta          String
+  part          Part    @relation(fields: [part_id], references: [id])
+  part_id       Int
+
+  @@index([part_id])
+  @@map("PartSize")
+}
+
+model Media {
+  id          String        @id @default(uuid())
+  image       Bytes
+  type        String
+  Category    Category[]
+  SubCategory SubCategory[]
+  Part        Part[]
+
+  @@map("Media")
+}
+

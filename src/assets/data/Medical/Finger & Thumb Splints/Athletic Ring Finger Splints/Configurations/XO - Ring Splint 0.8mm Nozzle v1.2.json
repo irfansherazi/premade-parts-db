@@ -1,0 +1,48 @@
+{
+    "enable_support": "1",
+    "from": "User",
+    "independent_support_layer_height": "0",
+    "inherits": "0.24mm Standard @BBL X1C 0.8 nozzle",
+    "initial_layer_print_height": "0.24",
+    "inner_wall_speed": [
+        "40"
+    ],
+    "internal_solid_infill_speed": [
+        "40"
+    ],
+    "name": "XO - Ring Splint 0.8mm Nozzle v1.2",
+    "outer_wall_speed": [
+        "40"
+    ],
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "XO - Ring Splint 0.8mm Nozzle v1.2",
+    "raft_first_layer_expansion": "8",
+    "seam_position": "back",
+    "sparse_infill_density": "100%",
+    "sparse_infill_pattern": "concentric",
+    "sparse_infill_speed": [
+        "40"
+    ],
+    "support_interface_speed": [
+        "50"
+    ],
+    "support_interface_top_layers": "3",
+    "support_on_build_plate_only": "1",
+    "support_remove_small_overhang": "0",
+    "support_speed": [
+        "50"
+    ],
+    "support_style": "tree_strong",
+    "support_threshold_angle": "35",
+    "support_top_z_distance": "0.25",
+    "top_surface_speed": [
+        "40"
+    ],
+    "version": "1.9.0.21",
+    "wall_loops": "3"
+}

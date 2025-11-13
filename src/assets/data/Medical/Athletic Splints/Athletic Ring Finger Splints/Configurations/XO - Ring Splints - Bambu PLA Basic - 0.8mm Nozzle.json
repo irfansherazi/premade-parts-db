@@ -1,0 +1,30 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_settings_id": [
+        "XO - Ring Splints - Bambu PLA Basic - 0.8mm Nozzle"
+    ],
+    "from": "User",
+    "inherits": "Bambu PLA Basic @BBL X1C 0.8 nozzle",
+    "name": "XO - Ring Splints - Bambu PLA Basic - 0.8mm Nozzle",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "200"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "slow_down_min_speed": [
+        "40"
+    ],
+    "version": "2.0.0.87"
+}

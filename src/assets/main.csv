@@ -1,0 +1,201 @@
+STATE,CATEGORY,TYPE,PART NAME,Tags/Metadata,DESCRIPTION,PICTURE,PICTURE LINK,Number of Parts,Sizing,Thickness
+,hardware,Bearing,Flanged Sleeve Bearing,Bearing sleeve flanged bushing hardware flange,"a sleeve bearing that is designed to reduce friction and wear, providing smooth motion for rotating shafts and prevent back slide.",Picture,Flanged Sleeve Bearing,135,"For Shaft Diameters
+Metric: 3mm to 50mm
+Imperial: .125in to 1.5in "
+,hardware,Bearing,Sleeve Bearing,bearing sleeve plain bushing hardware,"a sleeve bearing, the simplest type of bearing, is a cylindrical component that supports rotating shafts with a simple, low-friction surface. Ideal for low-speed applications.",Picture,Sleeve Bearing,147,"For Shaft Diameters
+Metric: 5mm to 50mm
+Imperial: .125in to 1.5in "
+,hardware,Bolt,Eye Bolt,bolt eye lifting threaded hardware,"a threaded fastener with a looped head, used for attaching ropes or cables securely.",Picture,Eye Bolt,92,"Thread Sizes
+Metric: M6 to M48
+Imperial: 1/4-20 to 2 1/2-4"
+,hardware,Bolt,Hex Bolt,bolt hex threaded machine fastener hardware,"a bolt has a six-sided head, offering excellent grip and strength for fastening.",Picture,Hex Bolt,1267,"Thread Sizes
+Metric: M3X.5 to M24X3
+Imperial: 1/4-20 to 2 1/2-4"
+,hardware,Bolt,U Bolt,U bolt pipe clamp fastener,"a U-shaped fastener with threaded ends, ideal for securing pipes and round objects.",Picture,U Bolt,62,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 1 -8"
+,hardware,Bracket,Corner Bracket,bracket corner angle support hardware,an L-shaped piece used to reinforce and secure joints at 90-degree angles.,Picture,Corner Bracket,324,"Height Sizes: 1.5in to 4in
+Depth Sizes: 1.5in to 4in
+Width Sizes: 1in to 3in"
+,hardware,Bracket,Simple Latch,,,Picture,Simple Latch,1,n/a
+,hardware,Bracket,U Bolt Bracket,bracket U bolt pipe support clamp,"a support designed to hold pipes or tubes securely in place with U-bolts, ensuring stability and alignment.",Picture,U Bolt Bracket,62,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 1 -8"
+,hardware,Clamp,C-Clamp,clamp C-clamp grip tool,"a versatile, adjustable tool with a screw mechanism, used to securely hold objects in place during woodworking or metalworking tasks.",Picture,C-Clamp,10,"Opening Sizes: 1in to 8in
+Reach Sizes: 1.0625in to 4in"
+,hardware,Grommet,Grommet,grommet cable rubber insulation protection hardware,a circular ring used to protect wires or cables as they pass through holes.,Picture,Grommet,112," for Hole Diameter sizes:
+.25in to 3.5in"
+,hardware,Knob,Eight Arm,knob star grip control hardware eight arm,"a knob with a versatile grip made up of eight arms, allowing easy tightening or loosening of components by hand. ",Picture,Eight Arm,1,"Thread Sizes
+Metric:
+Imperial: 3/8-16"
+,hardware,Knob,Five Arm A,knob star control grip hardware five A,"a knob with a versatile grip made up of five arms, allowing easy tightening or loosening of components by hand. (One of Two Models)",Picture,Five Arm A,6,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 5/16-18"
+,hardware,Knob,Five Arm B,knob star control grip hardware five B,"a knob with a versatile grip made up of five extended arms, allowing easy tightening or loosening of components by hand. (One of Two Models)",Picture,Five Arm B,6,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 3/8-16"
+,hardware,Knob,Four Arm,knob star grip control hardware four arm hardware,"a knob with a versatile grip made up of four extended arms, allowing easy tightening or loosening of components by hand.",Picture,Four Arm,23,"Thread Sizes
+Metric:
+Imperial: 8-32 to 1/2-13"
+,hardware,Knob,Seven Arm,knob star grip control hardware seven arm hardware,"a knob with a versatile grip made up of seven arms, allowing easy tightening or loosening of components by hand.",Picture,Seven Arm,10,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 1/2-13"
+,hardware,Knob,Three Arm A,knob star grip control hardware three arm A hardware,"a knob with a versatile grip made up of three extended arms, allowing easy tightening or loosening of components by hand. (One of Two Models)",Picture,Three Arm A,32,"Thread Sizes
+Metric:
+Imperial: 8-32 to 3/8-16"
+,hardware,Knob,Three Arm B,knob star grip control hardware three arm B hardware,"a knob with a versatile grip made up of three arms, allowing easy tightening or loosening of components by hand. (One of Two Models)",Picture,Three Arm B,7,"Thread Sizes
+Metric:
+Imperial: 1/4-20 to 5/16-18"
+,hardware,Nut,Eye Nut,nut eye lifting threaded hardware,"a threaded nut with a looped top, used to lift or secure objects with ropes or cables.",Picture,Eye Nut,61,"Thread Sizes
+Metric: M6 to M36
+Imperial: 1/4-20 to 2 -4 1/2"
+,hardware,Nut,Flange Nut,nut flange serrated locking fastener hardware,"a nut with a built-in washer that spreads pressure, preventing damage to surfaces and improving stability.",Picture,Flange Nut,32,"Thread Sizes
+Metric: M3 to M36
+Imperial: 1/4-20 to 1 1/4-7"
+,hardware,Nut,Nut,nut fastener hex threaded hardware,"a small, threaded fastener designed to pair with bolts, providing secure and durable connections.",Picture,Nut,64,"Thread Sizes
+Metric: M6 to M72
+Imperial: 1/4-20 to 2-12"
+,hardware,Propeller,Drone Propeller,propeller drone blade UAV quad copter,"a lightweight, aerodynamic blade that generates lift and thrust, enabling smooth flight and maneuverability for drones.",Picture,Drone Propeller,1,n/a
+,hardware,Scrapers,Handheld Scraper,scraper ice snow windshield tool hardware,Removes material from surfaces by applying pressure with a flat or angled blade,Picture,Handheld Scraper,1,n/a
+,hardware,Screw,Socket Head Screw,socket head screw cap fastener,"a screw with a cylindrical head that has an internal hex drive, ideal for precision fastening.",Picture,Socket Head Screw,1669,"Thread Sizes
+Metric: M1.4X3 to M48X5
+Imperial: 0-80 to 2 1/2-8"
+,hardware,Screw,Straight Slot Screw,slot screw flathead slotted fastener,"a screw that has a single linear groove, designed for simple fastening with flathead screwdrivers.",Picture,Straight Slot Screw,252,"Thread Sizes
+Metric: M1X.25 to M12X1.75
+Imperial: 0000-160 to 1/2-13"
+,hardware,Socket,12 Point Socket,12 Point Socket socket multi-point hex wrench tool,a socket that provides multiple contact points for easy fastening or loosening of bolts in tight spaces.,Picture,12 Point Socket,282,"for Drive Sizes:
+Metric: 3mm to 65mm
+Imperial:1/8in to 3 1/2in "
+,hardware,Socket,6 Point Socket,6 Point Socket socket hex impact wrench tool,"a socket that grips hexagonal fasteners securely, reducing the chance of slipping or rounding off edges.",Picture,6 Point Socket,246,"for Drive Sizes:
+Metric: 3mm to 60mm
+Imperial:1/8in to 1 5/8in "
+,hardware,Socket,Combo Wrench,wrench combination spanner tool mechanic combo socket,"a wrench that features an open end and a closed ring end, offering versatile tightening and loosening options.",Picture,Combo Wrench,187,"for Drive Sizes:
+Metric: 6mm to 80mm
+Imperial:1/4in to 4in "
+,hardware,Washer,Insulated Washer,washer insulated thermal plastic non conductive,"a washer that prevents electrical conductivity, protecting components from shorts and surges.",Picture,Insulated Washer,133,"for Screw Sizes:
+#2 to 1in"
+,hardware,Washer,Spacer,spacer standoff bushing hardware shim washer,"a small, cylindrical component used to maintain distance between two parts for alignment and stability.",Picture,Spacer,954,"for Screw Sizes:
+Metric: M2.5 to M12
+Imperial: #0 to 1in"
+,hardware,Washer,Washer,washer flat lock spring hardware,A flat disc used to evenly distribute pressure on bolts and fasteners.,Picture,Washer,177,"for Screw Sizes:
+Metric: M.9 to M64
+Imperial: #0 to 1 1/2in"
+,hardware,Weaponry,AK Extractor,weapon attachment AK extractor rifle bolt,"a small, durable component that grips the rim of a cartridge to eject spent casings from the AK rifle's chamber.",Picture,AK Extractor,1,n/a
+,medical,Flat Print,Clamdigger Metacarpal Fracture Splint,L3808,Used for stabilizing injury to the 4th/5th phalangeal and/or 4th/5th metacarpals or surrounding ligaments. Can be used pre/post-surgery.,Picture,Clamdigger Metacarpal Fracture Splint,6,"S, M, L"
+,medical,Flat Print,Dorsal Cockup Splint,"Dorsal, Cockup, Wrist, Extension, Support L3906","A splint that stabilizes the back (dorsal) of the wrist, keeping it in an extended position to aid in injury recovery.",Picture,Dorsal Cockup Splint,6,"S, M, L"
+,medical,Flat Print,Flat Ankle Brace A,,,Picture,Flat Ankle Brace A,1,
+,medical,Flat Print,Flat Ankle Brace B,,,Picture,Flat Ankle Brace B,1,
+,medical,Flat Print,Flat Ankle Stirrup,,,Picture,Flat Ankle Stirrup,1,
+,medical,Flat Print,Flat Print Ring Splint,,,Picture,Flat Print Ring Splint,1,
+,medical,Flat Print,Flat Print Standard Finger Splint,,,Picture,Flat Print Standard Finger Splint,3,"S,M,L"
+,medical,Flat Print,Flat Print Thumb Spica,,,Picture,Flat Print Thumb Spica,1,
+,medical,Flat Print,Flat Print Wrist Brace,L3906,,Picture,Flat Print Wrist Brace,1,
+,medical,Flat Print,Forearm Extension,,,Picture,Forearm Extension,1,
+,medical,Flat Print,Gauntlet Immobilization Orthosis,"Gauntlet, Immobilization, Orthosis, Wrist, Support L3906","A gauntlet-style orthosis that immobilizes the wrist and thumb, often used for fractures or ligament injuries requiring extended stabilization.",Picture,Gauntlet Immobilization Orthosis,2,"S, M"
+,medical,Flat Print,Gauntlet Thumb Spica,L3913,"A wrist and thumb immobilization splint that covers part of the hand, typically used for thumb injuries like ligament damage or fractures.",Picture,Gauntlet Thumb Orthosis,3,"S, M, L"
+,medical,Flat Print,Intrinsic Resting Hand Orthosis,"Intrinsic, Resting, Hand, Orthosis, Support L3808","A hand orthosis that maintains the hand in a resting position, often used for patients with neurological conditions to prevent contractures.",Picture,Intrinsic Resting Hand Orthosis,6,"S, M, L"
+,medical,Flat Print,Palmar Cockup Splint (no thumb),"Palmar, Cockup, Wrist, No-thumb, Stabilizer L3906",A wrist and palm immobilizer that holds the wrist in a cocked-up (extended) position without thumb support.,Picture,Palmar Cockup Splint (no thumb),6,"S, M, L"
+,medical,Flat Print,Radial Based Thumb Spica,"Radial, Thumb, Spica, Wrist, Splint L3808","A thumb and wrist immobilizer with support focused on the radial side, used for conditions like De Quervain's tenosynovitis or thumb fractures.",Picture,Radial Based Thumb Spica,6,"S, M, L"
+,medical,Flat Print,Rheumatoid Arthritis Resting Hand Orthosis,"Rheumatoid, Arthritis, Resting, Hand, Orthosis L3808",A resting hand orthosis designed to relieve pain and prevent deformities in patients with rheumatoid arthritis by stabilizing the hand.,Picture,Rheumatoid Arthritis Resting Hand Orthosis,6,"S, M, L"
+,medical,Flat Print,Thumb CMC Immobilization Orthosis,LL3923,,Picture,Thumb CMC Immobilization Orthosis,4,
+,medical,Flat Print,TPU Heel Insole,,,Picture,TPU Heel Insole,1,
+,medical,Flat Print,Wrist Cockup Splint NCM Radial Bar,"Wrist, Cockup, Radial, Bar, Support L3906","A wrist immobilizer that includes a radial bar for added support, typically used for wrist injuries, wrist drop or post-operative recovery.",Picture,Wrist Cockup Splint NCM Radial Bar,6,"S, M, L"
+Medical Device Design MVP,medical,Flat Print,Wrist Stabilized Finger Splint,L3808,,Picture,Wrist Stabilized Finger Splint,6,"1 finger S, M, L
+2 finger S, M, L"
+Medical Device Design MVP,medical,Foot Splint,Ankle Stirrup,,,Picture,Ankle Stirrup,1,
+Medical Device Design MVP,medical,Upper Extremity,Cockup Splint,"Cockup, Wrist, Dorsal, Extension, Immobilizer L3908","A splint designed to hold the wrist in an extended position, commonly used for carpal tunnel syndrome or wrist fractures.",Picture,Cockup Splint,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Mallet Finger Splint,hand splint mallet finger immobilize joint hand,"A splint designed to immobilize the fingertip and support the distal interphalangeal joint, commonly used for mallet finger injuries.",Picture,Mallet Finger Splint,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Flexible Wrist Brace,,,Picture,Flexible Wrist Brace,1,
+Medical Device Design MVP,medical,Upper Extremity,Palmar Cockup Splint (no thumb),"Palmar, Wrist, No-thumb, Splint, Immobilization L3908","A carpal bone and ligament stabilizer that does not include thumb support, used for injuries requiring carpal immobilization and/or pain relief.",Picture,Palmar Cockup Splint (no thumb),3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Palmar Splint (no thumb) Extending into Forearm,"Palmar, Forearm, Support, Stabilization, No-thumb L3908","A splint that stabilizes the wrist and palm, without thumb support, extending into the forearm to immobilize and protect the wrist.",Picture,Palmar Splint (no thumb) Extending into Forearm,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Palmar Splint (thumb) Extending into Forearm,"Palmar, Thumb, Forearm, Brace, Orthosis L3807","A wrist, thumb, and palm immobilizer that extends into the forearm, providing support for both the thumb and wrist.",Picture,Palmar Splint (thumb) Extending into Forearm,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Palmar Splint (thumb),"Palmar, Thumb, Forearm, Support, Stabilizer L3924",Provides stabilization the to thumb and/or carpals from injuries or medical conditions.,Picture,Palmar Splint (thumb) Extending into Forearm,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Resting Hand Splint,"Resting, Hand, Dorsal, Extension, Immobilizer L3807","A splint designed to hold the hand and wrist in an extended position, commonly used for stroke patients. ",Picture,Resting Hand Splint,3,"S,M,L"
+Medical Device Design MVP,medical,Upper Extremity,Ring Splint,ring splint immobilize finger joint hand,"A small, circular device used to support and stabilize finger joints, often for conditions like arthritis or joint instability.",Picture,Ring Splint,427,ring size 2 to 20
+Medical Device Design MVP,medical,Upper Extremity,Ring_Pinky Wrist Brace,L3807,,Picture,Ring_Pinky Wrist Brace,1,
+Medical Device Design MVP,medical,Upper Extremity,Ulnar Gutter,hand splint ulnar gutter wrist hand immobilize joint L3807,"A splint that immobilizes the ring and little fingers, as well as the ulnar side of the hand, typically used for fractures or soft tissue injuries.",Picture,Ulnar Gutter,3,"S, M, L"
+Medical Device Design MVP,medical,Upper Extremity,Universal Wrist Brace Cast,L3908,,Picture,Universal Wrist Brace Cast,20,"Left and Right
+Male and Female
+XS, S, M, L, XL"
+Medical Device Design MVP,medical,Upper Extremity,Universal/Adjustable Thumb Spica & Wrist Splint,,,Picture,Universal/Adjustable Thumb Spica & Wrist Splint,20,"Left and Right
+Male and Female
+XS, S, M, L, XL"
+Medical Device Design MVP,medical,Upper Extremity,ZipTie Finger Brace,,,Picture,ZipTie Finger Brace,1,
+Medical Device Design MVP,medical,Insole,3D Printed Flexible Padding,,,Picture,3D Printed Flexible Padding,1,
+,medical,Tool,Army/Navy Retractor,,,Picture,Army/Navy Retractor,1,
+,medical,Tool,Flat Tipped Tweezers,,,Picture,Flat Tipped Tweezers,1,
+,medical,Tool,Hemostat,,,Picture,Hemostat,1,
+,medical,Tool,Locking Tweezers,,,Picture,Locking Tweezers,1,
+,medical,Tool,Needle Driver,,,Picture,Needle Driver,1,
+,medical,Tool,Ring Splint Sizer,,,Picture,Ring Splint Sizer,82,ring size 2 to 20
+,medical,Tool,Ring Splint Sizer Tool,,,Picture,Ring Splint Sizer Tool,1,
+,medical,Tool,Ring Splint Sizer Tray,,,Picture,Ring Splint Sizer Tray,1,
+,medical,Tool,Tweezers,,,Picture,Tweezers,1,
+,medical,Tool,Universal Wrist Brace Cast Opener,,,Picture,Universal Wrist Brace Cast Opener,1,
+,medical,Tool,ZipTie Strap,,,Picture,ZipTie Strap,20,120mm - 260mm
+,medical,Flat Print Lattice Sheets,Clamdigger Metacarpal Fracture Splint,,Clamdigger Metacarpal Fracture Splint,Picture,Clamdigger Metacarpal Fracture Splint,9,
+,medical,Flat Print Lattice Sheets,Colles Fracture Brace,,Colles Fracture Brace,Picture,Colles Fracture Brace Splint,9,
+,medical,Flat Print,Colles Fracture Brace,,Colles Fracture Brace,Picture,Colles Fracture Brace Splint,9,
+,medical,Flat Print Lattice Sheets,Dorsal Cock-Up Orthosis,,Dorsal Cock-Up Orthosis,Picture,Dorsal Cock-Up Orthosis,9,
+,medical,Flat Print,Dorsal Cock-Up Orthosis,,Dorsal Cock-Up Orthosis,Picture,Dorsal Cock-Up Orthosis,9,
+,medical,Flat Print Lattice Sheets,Gauntlet Immobilization Orthosis,,Gauntlet Immobilization Orthosis,Picture,Gauntlet Immobilization Orthosis,9,
+,medical,Flat Print Lattice Sheets,Gauntlet Thumb Orthosis (Spica),,Gauntlet Thumb Orthosis (Spica),Picture,Gauntlet Thumb Orthosis (Spica),9,
+,medical,Flat Print,Gauntlet Immobilization Orthosis,,Gauntlet Immobilization Orthosis,Picture,Gauntlet Immobilization Orthosis,9,
+,medical,Flat Print,Gauntlet Thumb Orthosis (Spica),,Gauntlet Thumb Orthosis (Spica),Picture,Gauntlet Thumb Orthosis (Spica),9,
+,medical,Flat Print Lattice Sheets,Intrinsic Resting Hand Orthosis,,Intrinsic Resting Hand Orthosis,Picture,Intrinsic Resting Hand Orthosis,9,
+,medical,Flat Print,Intrinsic Resting Hand Orthosis,,Intrinsic Resting Hand Orthosis,Picture,Intrinsic Resting Hand Orthosis,9,
+,medical,Flat Print Lattice Sheets,Palmer Cock-Up Splint with Thumb Hole,,Palmer Cock-Up Splint with Thumb Hole,Picture,Palmer Cock-Up Splint with Thumb Hole,9,
+,medical,Flat Print,Palmer Cock-Up Splint with Thumb Hole,,Palmer Cock-Up Splint with Thumb Hole,Picture,Palmer Cock-Up Splint with Thumb Hole,9,
+,medical,Flat Print Lattice Sheets,Radial Based Thumb Spica,,Radial Based Thumb Spica,Picture,Radial Based Thumb Spica,9,
+,medical,Flat Print,Radial Based Thumb Spica,,Radial Based Thumb Spica,Picture,Radial Based Thumb Spica,9,
+,medical,Flat Print Lattice Sheets,Rheumatoid Arth. Hand Orth,,Rheumatoid Arth. Hand Orth,Picture,Rheumatoid Arth. Hand Orth,9,
+,medical,Flat Print,Rheumatoid Arth. Hand Orth,,Rheumatoid Arth. Hand Orth,Picture,Rheumatoid Arth. Hand Orth,9,
+,medical,Flat Print Lattice Sheets,Wrist Cock-Up Splint NCM Radial Bar,,Wrist Cock-Up Splint NCM Radial Bar,Picture,Wrist Cock-Up Splint NCM Radial Bar,9,
+,medical,Flat Print,Wrist Cock-Up Splint NCM Radial Bar,,Wrist Cock-Up Splint NCM Radial Bar,Picture,Wrist Cock-Up Splint NCM Radial Bar,9,
+,medical,Single Material Flat Print,Clamdigger Metacarpal Fracture Splint,L3808,Used for stabilizing injury to the 4th/5th phalangeal and/or 4th/5th metacarpals or surrounding ligaments. Can be used pre/post-surgery.,Picture,Clamdigger Metacarpal Fracture Splint,6,"S, M, L"
+,medical,Single Material Flat Print,Wrist Cock-Up Splint NCM Radial Bar,"Wrist, Cockup, Radial, Bar, Support L3906","A wrist immobilizer that includes a radial bar for added support, typically used for wrist injuries, wrist drop or post-operative recovery.",Picture,Wrist Cock-Up Splint NCM Radial Bar,6,"S, M, L"
+,medical,Single Material Flat Print,Rheumatoid Arth. Hand Orth,"Rheumatoid, Arthritis, Resting, Hand, Orthosis L3808",A resting hand orthosis designed to relieve pain and prevent deformities in patients with rheumatoid arthritis by stabilizing the hand.,Picture,Rheumatoid Arth. Hand Orth,6,"S, M, L"
+,medical,Single Material Flat Print,Radial Based Thumb Spica,"Radial, Thumb, Spica, Wrist, Splint L3808","A thumb and wrist immobilizer with support focused on the radial side, used for conditions like De Quervain's tenosynovitis or thumb fractures.",Picture,Radial Based Thumb Spica,6,"S, M, L"
+,medical,Single Material Flat Print,Palmar Cock-Up Splint with Thumb Hole,"Palmar, Cockup, Wrist, Thumb, Stabilizer L3906",A wrist and palm immobilizer that holds the wrist in a cocked-up position with thumb support.,Picture,Palmar Cock-Up Splint with Thumb Hole,6,"S, M, L"
+,medical,Single Material Flat Print,Intrinsic Resting Hand Orthosis,"Intrinsic, Resting, Hand, Orthosis, Support L3808","A hand orthosis that maintains the hand in a resting position, often used for patients with neurological conditions to prevent contractures.",Picture,Intrinsic Resting Hand Orthosis,6,"S, M, L"
+,medical,Single Material Flat Print,Gauntlet Thumb Orthosis (Spica),L3913,"A wrist and thumb immobilization splint that covers part of the hand, typically used for thumb injuries like ligament damage or fractures.",Picture,Gauntlet Thumb Orthosis (Spica),3,"S, M, L"
+,medical,Single Material Flat Print,Gauntlet Immobilization Orthosis,"Gauntlet, Immobilization, Orthosis, Wrist, Support L3906","A gauntlet-style orthosis that immobilizes the wrist and thumb, often used for fractures or ligament injuries requiring extended stabilization.",Picture,Gauntlet Immobilization Orthosis,2,"S, M"
+,medical,Single Material Flat Print,Dorsal Cock-Up Orthosis,"Dorsal, Cockup, Wrist, Extension, Support L3906","A splint that stabilizes the back (dorsal) of the wrist, keeping it in an extended position to aid in injury recovery.",Picture,Dorsal Cock-Up Orthosis,6,"S, M, L"
+,medical,Single Material Flat Print,Colles Fracture Brace,"Colles, Fracture, Brace, Wrist, Support",A brace designed to support and immobilize the wrist following a Colles fracture.,Picture,Colles Fracture Brace,6,"S, M, L"
+,medical,Single Material Flat Print,Ankle Stirrups (Flat Sheet),ankle stirrup flat sheet,"A flat sheet ankle stirrup designed for ankle support and stabilization.",Picture,Ankle Stirrups (Flat Sheet),6,"S, M, L"
+,medical,Athletic Splints,AC Guard,athletic guard shoulder protection,"A protective guard designed for the acromioclavicular joint, commonly used in contact sports to prevent shoulder injuries.",Picture,AC Guard,12,"S, M, L, XL"
+,medical,Athletic Splints,Athletic Ring Finger Splints,athletic finger splint ring protection,"Athletic-grade finger splints designed for sports activities, providing protection and support for finger joints.",Picture,Athletic Ring Finger Splints,15,"S, M, L"
+,medical,Athletic Splints,Rib Guard,rib guard protection chest,"A protective guard designed to protect the ribcage during athletic activities, commonly used in contact sports.",Picture,Rib Guard,8,"S, M, L, XL"
+,medical,Athletic Splints,Shin Guard,shin guard leg protection,"A protective guard designed for the shin area, commonly used in sports to prevent impact injuries.",Picture,Shin Guard,10,"S, M, L, XL"
+,medical,Athletic Splints,Stack (Mallet) Finger Splints,mallet finger splint stack,"A specialized splint designed to treat mallet finger injuries by maintaining proper finger alignment.",Picture,Stack (Mallet) Finger Splints,12,"S, M, L"
+,medical,Athletic Splints,Standard Thumb Spica,thumb spica standard,"A standard thumb immobilization splint used for various thumb injuries and conditions.",Picture,Standard Thumb Spica,8,"S, M, L"
+,medical,Athletic Splints,Thigh Guard,thigh guard leg protection,"A protective guard designed for the thigh area, commonly used in contact sports to prevent impact injuries.",Picture,Thigh Guard,6,"S, M, L, XL"
+,medical,Athletic Splints,Traditional Finger Splints,traditional finger splint,"Traditional finger splints designed for general finger support and immobilization.",Picture,Traditional Finger Splints,10,"S, M, L"
+,medical,Athletic Splints,Ring Splint,ring splint immobilize finger joint hand,"A small, circular device used to support and stabilize finger joints, often for conditions like arthritis or joint instability.",Picture,Ring Splint,427,ring size 2 to 20
+,medical,Finger & Thumb Splints,Athletic Ring Finger Splints,athletic finger splint ring protection,"Athletic-grade finger splints designed for sports activities, providing protection and support for finger joints.",Picture,Athletic Ring Finger Splints,15,"S, M, L"
+,medical,Finger & Thumb Splints,Ring Splint,ring splint immobilize finger joint hand,"A small, circular device used to support and stabilize finger joints, often for conditions like arthritis or joint instability.",Picture,Ring Splint,427,ring size 2 to 20
+,medical,Finger & Thumb Splints,Stack (Mallet) Finger Splints,mallet finger splint stack,"A specialized splint designed to treat mallet finger injuries by maintaining proper finger alignment.",Picture,Stack (Mallet) Finger Splints,12,"S, M, L"
+,medical,Finger & Thumb Splints,Standard Thumb Spica,thumb spica standard,"A standard thumb immobilization splint used for various thumb injuries and conditions.",Picture,Standard Thumb Spica,8,"S, M, L"
+,medical,Finger & Thumb Splints,Traditional Finger Splints,traditional finger splint,"Traditional finger splints designed for general finger support and immobilization.",Picture,Traditional Finger Splints,10,"S, M, L"
+,medical,Hand & Wrist Splints,Palmar splint (no thumb),"Palmar, Wrist, No-thumb, Splint, Immobilization L3908","A carpal bone and ligament stabilizer that does not include thumb support, used for injuries requiring carpal immobilization and/or pain relief.",Picture,Palmar splint (no thumb),3,"S, M, L"
+,medical,Hand & Wrist Splints,Cockup Splint,"Cockup, Wrist, Dorsal, Extension, Immobilizer L3908","A splint designed to hold the wrist in an extended position, commonly used for carpal tunnel syndrome or wrist fractures.",Picture,Cockup Splint,3,"S, M, L"
+,medical,Hand & Wrist Splints,Palmar Splint (no thumb) Extending into Forearm,"Palmar, Forearm, Support, Stabilization, No-thumb L3908","A splint that stabilizes the wrist and palm, without thumb support, extending into the forearm to immobilize and protect the wrist.",Picture,Palmar Splint (no thumb) Extending into Forearm,3,"S, M, L"
+,medical,Hand & Wrist Splints,Palmar splint (thumb),"Palmar, Thumb, Forearm, Support, Stabilizer L3924",Provides stabilization the to thumb and/or carpals from injuries or medical conditions.,Picture,Palmar splint (thumb),3,"S, M, L"
+,medical,Hand & Wrist Splints,Palmar splint (thumb) extending into forearm,"Palmar, Thumb, Forearm, Brace, Orthosis L3807","A wrist, thumb, and palm immobilizer that extends into the forearm, providing support for both the thumb and wrist.",Picture,Palmar splint (thumb) extending into forearm,3,"S, M, L"
+,medical,Hand & Wrist Splints,Resting Hand Splint,"Resting, Hand, Dorsal, Extension, Immobilizer L3807","A splint designed to hold the hand and wrist in an extended position, commonly used for stroke patients. ",Picture,Resting Hand Splint,3,"S,M,L"
+,medical,Hand & Wrist Splints,Ulnar Gutter,hand splint ulnar gutter wrist hand immobilize joint L3807,"A splint that immobilizes the ring and little fingers, as well as the ulnar side of the hand, typically used for fractures or soft tissue injuries.",Picture,Ulnar Gutter,3,"S, M, L"
+,medical,Ortho Flat Sheets,Ankle Stirrups (Solid),ankle stirrup flat sheet orthosis brace medical,"Flat-sheet ankle stirrup designed for support and stabilization.",Picture,Ankle Stirrups (Solid),1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Clamdigger Metacarpal Fracture,metacarpal fracture splint flat sheet orthosis hand wrist medical,"Flat-sheet metacarpal splint for protection and immobilization.",Picture,Clamdigger Metacarpal Fracture,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Colles Fracture Brace,colles fracture wrist brace flat sheet orthosis medical,"Flat-sheet wrist brace for Colles fracture support and immobilization.",Picture,Colles Fracture Brace,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Dorsal Cock Up,dorsal cockup wrist splint flat sheet orthosis medical,"Flat-sheet dorsal cock-up wrist orthosis for extension support.",Picture,Dorsal Cock Up,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Finger Wrap,finger wrap splint flat sheet orthosis hand medical,"Flat-sheet finger wrap for support and stabilization.",Picture,Finger Wrap,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Gauntlet Immobilization Orthosis,gauntlet immobilization orthosis wrist thumb flat sheet medical,"Flat-sheet gauntlet-style orthosis for immobilization and protection.",Picture,Gauntlet Immobilization Orthosis,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Gauntlet Thumb Orthosis,gauntlet thumb spica orthosis flat sheet wrist medical,"Flat-sheet thumb spica gauntlet orthosis for thumb and wrist support.",Picture,Gauntlet Thumb Orthosis,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Heat Form Strips,heat form strips flat sheet orthosis accessory medical,"Heat-formable flat strips for customizable support.",Picture,Heat Form Strips,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Intrinsic Resting Hand,intrinsic resting hand orthosis flat sheet splint medical,"Flat-sheet resting hand orthosis to maintain functional position.",Picture,Intrinsic Resting Hand,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Palmar Cock Up,palmar cockup wrist splint flat sheet orthosis medical,"Flat-sheet palmar cock-up wrist orthosis for stabilization.",Picture,Palmar Cock Up,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Radial Thumb Spica,radial thumb spica orthosis flat sheet wrist medical,"Flat-sheet radial-based thumb spica for thumb and wrist immobilization.",Picture,Radial Thumb Spica,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Rheumatoid Hand Orthosis,rheumatoid hand orthosis flat sheet resting splint medical,"Flat-sheet resting orthosis to support rheumatoid hand conditions.",Picture,Rheumatoid Hand Orthosis,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Rhinoplasty Nose Splint,rhinoplasty nose splint flat sheet nasal support medical,"Flat-sheet nasal splint for post-rhinoplasty support.",Picture,Rhinoplasty Nose Splint,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Tennis Elbow Tensioner,tennis elbow tensioner flat sheet strap orthosis medical,"Flat-sheet tensioner designed to relieve lateral epicondylitis symptoms.",Picture,Tennis Elbow Tensioner,1,"2.5mm, 3mm, 4.5mm"
+,medical,Ortho Flat Sheets,Wrist Cock Up NCM Radial Bar,wrist cockup radial bar orthosis flat sheet wrist support medical,"Flat-sheet wrist cock-up orthosis with radial bar for added support.",Picture,Wrist Cock Up NCM Radial Bar,1,"2.5mm, 3mm, 4.5mm"
