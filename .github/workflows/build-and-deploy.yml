@@ -159,10 +159,11 @@ jobs:
           $zipPath = "${{ github.workspace }}/xoarmor-premade-parts-db-v$env:VERSION.zip"
           
           Write-Host "Creating zip file: $zipPath"
-          Compress-Archive -Path $dbPath -DestinationPath $zipPath -Force
+          Write-Host "Using Node.js archiver for large file support"
           
-          $zipSize = (Get-Item $zipPath).Length
-          Write-Host "Zip file size: $zipSize bytes"
+          # Use Node.js script to create zip (handles large files >2GB)
+          npx ts-node src/create-zip.ts $dbPath $zipPath
+          
           "ZIP_PATH=$zipPath" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Upload to S3

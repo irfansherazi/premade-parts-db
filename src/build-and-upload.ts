@@ -12,7 +12,7 @@
 import * as AWS from "aws-sdk";
 import * as fs from "fs";
 import * as path from "path";
-import { execSync } from "child_process";
+import archiver from "archiver";
 
 const BUCKET = "xoarmor-desktop-installation-files-staging";
 const PREFIX = "xoarmor-premade-parts-db/";
@@ -115,23 +115,38 @@ async function uploadToS3(zipPath: string, version: number): Promise<void> {
   console.log(`✅ Successfully uploaded database version ${version} to S3`);
 }
 
-function createZip(dbPath: string, version: number): string {
-  const zipPath = path.join(__dirname, "..", `xoarmor-premade-parts-db-v${version}.zip`);
-  
-  // Use PowerShell Compress-Archive on Windows, zip on Unix
-  if (process.platform === "win32") {
-    execSync(`powershell -Command "Compress-Archive -Path '${dbPath}' -DestinationPath '${zipPath}' -Force"`, {
-      stdio: "inherit",
-    });
-  } else {
-    execSync(`zip -j '${zipPath}' '${dbPath}'`, {
-      stdio: "inherit",
-    });
-  }
+function createZip(dbPath: string, version: number): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const zipPath = path.join(__dirname, "..", `xoarmor-premade-parts-db-v${version}.zip`);
+    
+    // Remove existing zip if it exists
+    if (fs.existsSync(zipPath)) {
+      fs.unlinkSync(zipPath);
+    }
 
-  const zipSize = fs.statSync(zipPath).size;
-  console.log(`Created zip file: ${zipPath} (${zipSize} bytes)`);
-  return zipPath;
+    const output = fs.createWriteStream(zipPath);
+    const archive = archiver("zip", {
+      zlib: { level: 9 } // Maximum compression
+    });
+
+    output.on("close", () => {
+      const zipSize = fs.statSync(zipPath).size;
+      console.log(`Created zip file: ${zipPath} (${zipSize} bytes)`);
+      resolve(zipPath);
+    });
+
+    archive.on("error", (err: Error) => {
+      reject(err);
+    });
+
+    archive.pipe(output);
+    
+    // Add the database file to the zip
+    const fileName = path.basename(dbPath);
+    archive.file(dbPath, { name: fileName });
+    
+    archive.finalize();
+  });
 }
 
 async function main(): Promise<void> {
@@ -169,7 +184,7 @@ async function main(): Promise<void> {
   console.log(`📦 Database file size: ${(dbSize / 1024 / 1024).toFixed(2)} MB`);
 
   // Create zip
-  const zipPath = createZip(DB_PATH, version);
+  const zipPath = await createZip(DB_PATH, version);
 
   if (buildOnly) {
     console.log(`\n✅ Build complete! Zip file created: ${zipPath}`);
