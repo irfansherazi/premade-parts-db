@@ -6,6 +6,7 @@
   "scripts": {
     "seed": "ts-node src/seed.ts",
     "build:upload": "ts-node src/build-and-upload.ts",
+    "build:only": "ts-node src/build-and-upload.ts -- --build-only",
     "prisma:generate": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma generate",
     "prisma:migrate": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma migrate deploy",
     "prisma:migrate:create": "cross-env PREMADE_DATABASE_URL=file:./premade-database.db prisma migrate dev --name init",
