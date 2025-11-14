@@ -71,7 +71,7 @@ async function getLatestVersion(): Promise<number> {
     if (data.Contents) {
       for (const obj of data.Contents) {
         const fileName = obj.Key?.split("/").pop() || "";
-        const match = fileName.match(/xoarmor-premade-parts-db-v(\d+)\.zip/);
+        const match = fileName.match(/staging-xoarmor-premade-parts-db-v(\d+)\.zip/);
         if (match) {
           const version = parseInt(match[1], 10);
           if (version > latestVersion) {
