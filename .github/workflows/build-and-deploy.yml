@@ -106,18 +106,24 @@ jobs:
         shell: pwsh
         run: |
           $env:AWS_SDK_LOAD_CONFIG = 1
+          $region = "${{ vars.AWS_REGION }}"
+          if ([string]::IsNullOrWhiteSpace($region)) {
+            Write-Error "AWS_REGION is not set. Please configure it in GitHub Actions variables."
+            exit 1
+          }
+          $env:AWS_REGION = $region
           $bucket = "xoarmor-desktop-installation-files-staging"
           $prefix = "xoarmor-premade-parts-db/"
           
           try {
-            $result = aws s3api list-objects-v2 --bucket $bucket --prefix $prefix --query "Contents[?contains(Key, 'xoarmor-premade-parts-db-v')].Key" --output text
+            $result = aws s3api list-objects-v2 --bucket $bucket --prefix $prefix --region $region --query "Contents[?contains(Key, 'staging-xoarmor-premade-parts-db-v')].Key" --output text
             $latestVersion = 0
             
             if ($result) {
               $keys = $result -split "`n" | Where-Object { $_ -ne "" }
               foreach ($key in $keys) {
                 $fileName = $key.Split("/")[-1]
-                if ($fileName -match "xoarmor-premade-parts-db-v(\d+)\.zip") {
+                if ($fileName -match "staging-xoarmor-premade-parts-db-v(\d+)\.zip") {
                   $version = [int]$matches[1]
                   if ($version -gt $latestVersion) {
                     $latestVersion = $version
@@ -163,15 +169,21 @@ jobs:
         shell: pwsh
         run: |
           $env:AWS_SDK_LOAD_CONFIG = 1
+          $region = "${{ vars.AWS_REGION }}"
+          if ([string]::IsNullOrWhiteSpace($region)) {
+            Write-Error "AWS_REGION is not set. Please configure it in GitHub Actions variables."
+            exit 1
+          }
+          $env:AWS_REGION = $region
           $zipPath = $env:ZIP_PATH
           $bucket = "xoarmor-desktop-installation-files-staging"
-          $key = "xoarmor-premade-parts-db/xoarmor-premade-parts-db-v$env:VERSION.zip"
+          $key = "xoarmor-premade-parts-db/staging-xoarmor-premade-parts-db-v$env:VERSION.zip"
           $version = $env:VERSION
           
           Write-Host "Uploading $zipPath to s3://$bucket/$key"
           
           # Use AWS CLI for reliable upload
-          aws s3 cp $zipPath "s3://$bucket/$key" --region ${{ vars.AWS_REGION }}
+          aws s3 cp $zipPath "s3://$bucket/$key" --region $region
           
           Write-Host "Successfully uploaded database version $version to S3"
 
