@@ -106,7 +106,7 @@ jobs:
         shell: pwsh
         run: |
           $env:AWS_SDK_LOAD_CONFIG = 1
-          $bucket = "xoarmor-desktop-installation-files"
+          $bucket = "xoarmor-desktop-installation-files-staging"
           $prefix = "xoarmor-premade-parts-db/"
           
           try {
@@ -164,7 +164,7 @@ jobs:
         run: |
           $env:AWS_SDK_LOAD_CONFIG = 1
           $zipPath = $env:ZIP_PATH
-          $bucket = "xoarmor-desktop-installation-files"
+          $bucket = "xoarmor-desktop-installation-files-staging"
           $key = "xoarmor-premade-parts-db/xoarmor-premade-parts-db-v$env:VERSION.zip"
           $version = $env:VERSION
           
